@@ -127,7 +127,7 @@ In order to use the playbook, you will need to have an Ansible control node alre
 SSH into the control node and follow the steps below:
 - Copy the filebeat file to file-conifg.yml.
 - Update the filebeat.yml file to include...
-- Run the playbook, and navigate to http://13.77.220.158:5601/app/kibana#/home to check that the installation worked as expected.  (Screenshot)
+- Run the playbook, and navigate to http://52.161.71.66:5601/app/kibana#/home to check that the installation worked as expected.  (Screenshot)
 
 
     - https://files.slack.com/files-pri/T02JQ7HRJNQ-F033WR7CBRQ/welcome-to-kibana.png
