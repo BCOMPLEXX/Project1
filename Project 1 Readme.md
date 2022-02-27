@@ -85,13 +85,6 @@ What is the main advantage of automating configuration with Ansible?
 
 The playbook implements the following tasks:
 
-    - ansible-playbook pentest.yml
-    - ansible-playbook install-elk.yml
-    - ansible-playbook filebeat-playbook.yml
-    - ansible-playbook metricbeat-playbook.yml
-
-
-
 In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
 
 1.  Check for the presence of docker (Install/Update)
@@ -145,6 +138,9 @@ Which URL do you navigate to in order to check that the ELK server is running?
 - http://13.89.103.50:5601/app/#kibana/home
 
 As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
-
+ansible-playbook install-elk.yml
+ansible-playbook pentest.yml
+ansible-playbook metricbeat-playbook.yml
+ansible-playbook filebeat-playbook.yml
 
 
