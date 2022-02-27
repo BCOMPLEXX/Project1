@@ -48,13 +48,13 @@ What does Metricbeat record?
 The configuration details of each machine may be found below.
 _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
 
-| Name     | Function | IP Address  | Operating System |
-|----------|----------|-------------|------------------|
-| Jump Box | Gateway  | 10.1.0.4    | Linux            |
-| ELK      | Gateway  | 52.161.71.66| Linux            |
-| Web-1    | LBalancer| FTE-IP      | Linux            |
-| Web-2    | LBalancer| FTE-IP      | Linux            |
-| Web-3    | LBalancer| FTE-IP      | Linux            |
+| Name     | Function | IP Address   | Operating System |
+|----------|----------|--------------|------------------|
+| Jump Box | Gateway  | 10.1.0.4     | Linux            |
+| ELK      | Gateway  | 13.78.144.199| Linux            |
+| Web-1    | LBalancer| FTE-IP       | Linux            |
+| Web-2    | LBalancer| FTE-IP       | Linux            |
+| Web-3    | LBalancer| FTE-IP       | Linux            |
 
 ### Access Policies
 
@@ -103,7 +103,7 @@ In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Do
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-https://drive.google.com/drive/folders/1NUGp-J6qxbQM84Sux2qksKS3FDvrsuHY?usp=sharing
+![docker ps](https://github.com/BCOMPLEXX/Project1/blob/fae4c7a529165f21aec36ff7e317d52fdd4a4433/diagrams/Elk%20Docker%20ps.png)
 
 - docker_ps_output.png
 
