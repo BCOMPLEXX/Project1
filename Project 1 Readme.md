@@ -2,7 +2,7 @@
 
 The files in this repository were used to configure the network depicted below.
 
-https://drive.google.com/drive/folders/1NUGp-J6qxbQM84Sux2qksKS3FDvrsuHY?usp=sharing
+![Network Diagram](https://github.com/BCOMPLEXX/Project1/blob/cd3b57cde9b6933a52b5db390173f7307d06e4be/diagrams/Project%201%20Cloud%20Security.png)
 
   - pentest-yml.png
   - install-elk-yml.png
@@ -141,8 +141,8 @@ How do I specify which machine to install the ELK server on versus which to inst
 - HostName in Host configuration file
 
 Which URL do you navigate to in order to check that the ELK server is running?
-- SSH aszureuser@10.0.0.8 (Web-1)
-- http://13.77.220.158:5601
+- SSH aszureuser@10.1.0.5 (Web-1)
+- http://13.89.103.50:5601/app/#kibana/home
 
 As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
 
