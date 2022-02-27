@@ -138,9 +138,13 @@ Which URL do you navigate to in order to check that the ELK server is running?
 - http://13.89.103.50:5601/app/#kibana/home
 
 As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
+
 ansible-playbook install-elk.yml
+
 ansible-playbook pentest.yml
+
 ansible-playbook metricbeat-playbook.yml
+
 ansible-playbook filebeat-playbook.yml
 
 
