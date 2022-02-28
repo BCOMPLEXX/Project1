@@ -46,7 +46,7 @@ What does Metricbeat record?
 
 
 The configuration details of each machine may be found below.
-_Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
+_Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table.
 
 | Name     | Function | IP Address   | Operating System |
 |----------|----------|--------------|------------------|
@@ -85,7 +85,7 @@ What is the main advantage of automating configuration with Ansible?
 
 The playbook implements the following tasks:
 
-In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
+In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc.
 
 1.  Check for the presence of docker (Install/Update)
 2.  Check for the presence of python3-pip (Install/Update)
@@ -126,7 +126,7 @@ SSH into the control node and follow the steps below:
 
     
 
-: Answer the following questions to fill in the blanks:_
+: Answer the following questions to fill in the blanks:
 - Which file is the playbook? Ansible-playbook files   
 - Where do you copy it? Root folder of ansible 
 - Which file do you update to make Ansible run the playbook on a specific machine? Hosts configuration file
@@ -138,7 +138,7 @@ Which URL do you navigate to in order to check that the ELK server is running?
 - SSH aszureuser@10.1.0.5 (Web-1)
 - http://52.161.71.66:5601/app/kibana#/home
 
-As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
+As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc.
 
 Start VM's
 ssh into Jumpbox
