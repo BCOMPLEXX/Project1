@@ -142,12 +142,12 @@ As a **Bonus**, provide the specific commands the user will need to run to downl
 
 Start VM's
 ssh into Jumpbox
-https://github.com/BCOMPLEXX/Project1/blob/c33a9121ebd6acf315dc016a1c6ad11404b48989/Bonus/1.png
+![ssh into Jumpbox](https://github.com/BCOMPLEXX/Project1/blob/c33a9121ebd6acf315dc016a1c6ad11404b48989/Bonus/1.png)
 start dockers
-https://github.com/BCOMPLEXX/Project1/blob/c33a9121ebd6acf315dc016a1c6ad11404b48989/Bonus/2.png
+![start docker](https://github.com/BCOMPLEXX/Project1/blob/c33a9121ebd6acf315dc016a1c6ad11404b48989/Bonus/2.png)
 cd into /etc/ansible
-https://github.com/BCOMPLEXX/Project1/blob/c33a9121ebd6acf315dc016a1c6ad11404b48989/Bonus/3.png
+![Run Ansible](https://github.com/BCOMPLEXX/Project1/blob/c33a9121ebd6acf315dc016a1c6ad11404b48989/Bonus/3.png)
 Run ansible-playbook <.yml>
-https://github.com/BCOMPLEXX/Project1/blob/c33a9121ebd6acf315dc016a1c6ad11404b48989/Bonus/4.png
+![CD into roles andRun Ansible](https://github.com/BCOMPLEXX/Project1/blob/c33a9121ebd6acf315dc016a1c6ad11404b48989/Bonus/4.png)
 cd into roles. Run ansible-playbook <.yml>
 
