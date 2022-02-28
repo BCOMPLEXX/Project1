@@ -147,7 +147,7 @@ start dockers
 https://github.com/BCOMPLEXX/Project1/blob/c33a9121ebd6acf315dc016a1c6ad11404b48989/Bonus/2.png
 cd into /etc/ansible
 https://github.com/BCOMPLEXX/Project1/blob/c33a9121ebd6acf315dc016a1c6ad11404b48989/Bonus/3.png
-run ansible-playbook <.yml>
+Run ansible-playbook <.yml>
 https://github.com/BCOMPLEXX/Project1/blob/c33a9121ebd6acf315dc016a1c6ad11404b48989/Bonus/4.png
-cd into roles. run ansible-playbook <.yml>
+cd into roles. Run ansible-playbook <.yml>
 
