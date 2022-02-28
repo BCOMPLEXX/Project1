@@ -120,7 +120,7 @@ In order to use the playbook, you will need to have an Ansible control node alre
 SSH into the control node and follow the steps below:
 - Copy the filebeat file to file-conifg.yml.
 - Update the filebeat.yml file to include...
-- Run the playbook, and navigate to http://52.161.71.66:5601/app/kibana#/home to check that the installation worked as expected.(Screen shot)  
+- Run the playbook, and navigate to http://52.161.27.100:5601/app/kibana#/home to check that the installation worked as expected.(Screen shot)  
 -  ![kibana server](https://github.com/BCOMPLEXX/Project1/blob/cd89ba8f67c405e4df7c4db96fd30dd4f014c084/diagrams/Welcome%20to%20Kibana.png)
 
 
@@ -135,8 +135,8 @@ How do I specify which machine to install the ELK server on versus which to inst
 - HostName in Host configuration file
 
 Which URL do you navigate to in order to check that the ELK server is running?
-- SSH aszureuser@10.1.0.5 (Web-1)
-- http://52.161.71.66:5601/app/kibana#/home
+- SSH aszureuser@10.2.0.4 (Elk-1)
+- http://52.161.27.100:5601/app/kibana#/home
 
 As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc.
 
