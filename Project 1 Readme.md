@@ -33,7 +33,7 @@ Load balancing ensures that the application will be highly avaiability, in addit
 What aspect of security do load balancers protect?
 - Load balancers protect the system from DDoS attacks by shifting traffic. 
 
-What is the advantage of a jump box?_
+What is the advantage of a jump box?
 The advantage of a jump box is to give secure access to such resources via SSH and Private Pre-Shared key... 
 
 
