@@ -9,7 +9,7 @@ The files in this repository were used to configure the network depicted below.
   - flebeat-playbook-yml.png
   - meatricbeat-playbook-yml.png
 
-These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
+These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the YAML file may be used to install only certain pieces of it, such as Filebeat.
 
   - pentest.yml
   - install-elk.yml
@@ -33,7 +33,7 @@ Load balancing ensures that the application will be highly avaiability, in addit
 What aspect of security do load balancers protect?
 - Load balancers protect the system from DDoS attacks by shifting traffic. 
 
-What is the advantage of a jump box?_
+What is the advantage of a jump box?
 The advantage of a jump box is to give secure access to such resources via SSH and Private Pre-Shared key... 
 
 
@@ -46,7 +46,7 @@ What does Metricbeat record?
 
 
 The configuration details of each machine may be found below.
-_Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
+_Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table.
 
 | Name     | Function | IP Address   | Operating System |
 |----------|----------|--------------|------------------|
@@ -85,7 +85,7 @@ What is the main advantage of automating configuration with Ansible?
 
 The playbook implements the following tasks:
 
-In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
+In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc.
 
 1.  Check for the presence of docker (Install/Update)
 2.  Check for the presence of python3-pip (Install/Update)
@@ -126,7 +126,7 @@ SSH into the control node and follow the steps below:
 
     
 
-: Answer the following questions to fill in the blanks:_
+: Answer the following questions to fill in the blanks:
 - Which file is the playbook? Ansible-playbook files   
 - Where do you copy it? Root folder of ansible 
 - Which file do you update to make Ansible run the playbook on a specific machine? Hosts configuration file
@@ -138,14 +138,16 @@ Which URL do you navigate to in order to check that the ELK server is running?
 - SSH aszureuser@10.1.0.5 (Web-1)
 - http://52.161.71.66:5601/app/kibana#/home
 
-As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
+As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc.
 
-ansible-playbook install-elk.yml
-
-ansible-playbook pentest.yml
-
-ansible-playbook metricbeat-playbook.yml
-
-ansible-playbook filebeat-playbook.yml
-
+Start VM's
+ssh into Jumpbox
+![ssh into Jumpbox](https://github.com/BCOMPLEXX/Project1/blob/c33a9121ebd6acf315dc016a1c6ad11404b48989/Bonus/1.png)
+start dockers
+![start docker](https://github.com/BCOMPLEXX/Project1/blob/c33a9121ebd6acf315dc016a1c6ad11404b48989/Bonus/2.png)
+cd into /etc/ansible
+![Run Ansible](https://github.com/BCOMPLEXX/Project1/blob/c33a9121ebd6acf315dc016a1c6ad11404b48989/Bonus/3.png)
+Run ansible-playbook <.yml>
+![CD into roles andRun Ansible](https://github.com/BCOMPLEXX/Project1/blob/c33a9121ebd6acf315dc016a1c6ad11404b48989/Bonus/4.png)
+cd into roles. Run ansible-playbook <.yml>
 
