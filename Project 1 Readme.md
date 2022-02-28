@@ -140,12 +140,14 @@ Which URL do you navigate to in order to check that the ELK server is running?
 
 As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
 
-ansible-playbook install-elk.yml
-
-ansible-playbook pentest.yml
-
-ansible-playbook metricbeat-playbook.yml
-
-ansible-playbook filebeat-playbook.yml
-
+Start VM's
+ssh into Jumpbox
+https://github.com/BCOMPLEXX/Project1/blob/c33a9121ebd6acf315dc016a1c6ad11404b48989/Bonus/1.png
+start dockers
+https://github.com/BCOMPLEXX/Project1/blob/c33a9121ebd6acf315dc016a1c6ad11404b48989/Bonus/2.png
+cd into /etc/ansible
+https://github.com/BCOMPLEXX/Project1/blob/c33a9121ebd6acf315dc016a1c6ad11404b48989/Bonus/3.png
+run ansible-playbook <.yml>
+https://github.com/BCOMPLEXX/Project1/blob/c33a9121ebd6acf315dc016a1c6ad11404b48989/Bonus/4.png
+cd into roles. run ansible-playbook <.yml>
 
