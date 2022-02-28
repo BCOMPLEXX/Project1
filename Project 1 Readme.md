@@ -136,7 +136,7 @@ How do I specify which machine to install the ELK server on versus which to inst
 
 Which URL do you navigate to in order to check that the ELK server is running?
 - SSH aszureuser@10.2.0.4 (Elk-1)
-- http://52.161.71.66:5601/app/kibana#/home
+- http://52.161.27.100:5601/app/kibana#/home
 
 As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc.
 
